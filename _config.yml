@@ -14,7 +14,8 @@ description              : &description "PhD in Physics at Stockholm University"
 url                      : https://maddalenabin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "maddalenabin/maddalenabin.github.io"
-teaser                   : "teaser.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+#teaser                   : "teaser.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+og_image                 : /images/fototessera.jpg  # Add this image to your /images folder
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160 # used to compute the reading time of each article
 future                   : false
@@ -57,21 +58,15 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : #&twitter "yanndubs"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    #- "https://twitter.com/yanndubs"
+  type: Person
+  name: Maddalena Bin
+  links:
     - "https://www.linkedin.com/in/maddalenabin/"
+    - "https://github.com/maddalenabin"
+    #- "https://scholar.google.com/citations?user=bfM1kzAAAAAJ&hl"
+    #- "https://www.researchgate.net/profile/Maddalena-Bin"
+
 
 
 # Analytics
@@ -85,39 +80,15 @@ analytics:
 author:
   name             : *name
   avatar           : "profile.jpg"
-  bio              : "PhD student in Physics"
-  location         : "Stockholm, Swedem"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  bio              : "PhD in Physics, passionate about data science, machine learning, and scientific storytelling"
+  location         : "Stockholm, Sweden"
+  employer         :  # Optionally add e.g. "Stockholm University" or "Freelance Data Scientist"
   googlescholar    : "https://scholar.google.com/citations?user=bfM1kzAAAAAJ&hl"
+  researchgate     : #"https://www.researchgate.net/profile/Maddalena-Bin"
+  github           : "https://github.com/maddalenabin"
+  linkedin         : "https://www.linkedin.com/in/maddalena-bin/"
+  orcid            : #"https://orcid.org/0000-0002-XXXX-XXXX"  # Add if you have it
   email            : maddalenabin@gmail.com
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "maddalenabin"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : maddalenabin
-  orcid            : #"http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : #6232494/yann-dubois
-  steam            :
-  tumblr           :
-  twitter          : #*twitter
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
@@ -269,9 +240,11 @@ plugins:
   - jekyll-gist # github gist in jekyll
   - jekyll-feed # allow atom feed for jekyll
   - jekyll-redirect-from # multiple URL per page
-  #- jekyll-seo-tag # improve google search 
+  - jekyll-seo-tag # improve google search 
   - jekyll-scholar # for nice bibliography
   - jemoji # emoji
+  
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
