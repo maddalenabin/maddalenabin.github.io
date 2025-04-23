@@ -15,7 +15,7 @@ url                      : https://maddalenabin.github.io # the base hostname & 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "maddalenabin/maddalenabin.github.io"
 #teaser                   : "teaser.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-og_image                 : /images/fototessera.jpg  # Add this image to your /images folder
+og_image                 : /images/profile.jpeg  # Add this image to your /images folder
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160 # used to compute the reading time of each article
 future                   : false
