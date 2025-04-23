@@ -103,23 +103,6 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -230,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 10 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
