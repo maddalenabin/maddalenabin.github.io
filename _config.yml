@@ -11,9 +11,9 @@ title                    : "Maddalena Bin"
 title_separator          : "-"
 name                     : &name "YMaddalena Bin"
 description              : &description "PhD in Physics at Stockholm University"
-url                      : https://maddalena.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://maddalenabin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "maddalenabin/maddalena.github.io"
+repository               : "maddalenabin/maddalenabin.github.io"
 teaser                   : "teaser.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160 # used to compute the reading time of each article
