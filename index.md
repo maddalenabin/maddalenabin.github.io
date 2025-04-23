@@ -1,33 +1,27 @@
 ---
-layout: home
-author_profile: true
-title: "Welcome"
+layout: default
+title: Maddalena Bin
 ---
 
+# Maddalena Bin
 
-I’m a physicist with a PhD from Stockholm University, where I studied protein systems using X-ray scattering techniques.
+_PhD in Physics • Data Scientist • Image Analyst_  
+Stockholm, Sweden
 
-Currently, I’m shifting focus toward machine learning and AI, with a strong interest in building clean, high-quality datasets and applying statistical methods to real-world problems. I enjoy working at the intersection of science, data, and storytelling.
-
----
-
-### 🔬 Areas of Interest
-
-- **Molecular dynamics** and complex systems
-- **Coherent X-ray scattering** and time-resolved experiments
-- **Data science & machine learning**
-- **Text data curation** and model training pipelines
-- **Scientific computing** with Python, Git, and HPC
+[GitHub](https://github.com/maddalenabin) | [LinkedIn](https://linkedin.com/in/maddalena-bin) | [Email](mailto:maddalenabin@gmail.com)
 
 ---
 
-### 📚 Publications & Projects
+Welcome to my personal webpage!
 
-Feel free to explore my [publications](/publications/), [teaching material](/teaching/), and selected [projects](/portfolio/). I'm always excited to collaborate or chat about data, physics, or ideas that blend the two.
+I'm a data scientist and researcher with a background in physics, passionate about the world.
+Currently looking for opportunities where I can combine scientific rigor with impactful data-driven projects.
 
----
+### 🔬 About Me
 
-### 📫 Get in Touch
+- PhD in Physics (Stockholm University)
+- Experienced in X-ray scattering 
+- Skilled in Python, data pipelines, and ML fundamentals
+- Passionate about science communication and tech for good
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/maddalenabin/), check out my [GitHub](https://github.com/maddalenabin), or drop me an email at [maddalenabin@gmail.com](mailto:maddalenabin@gmail.com).
-
+Feel free to get in touch!
