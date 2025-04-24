@@ -1,3 +1,4 @@
-# maddalenabin.github.io
+# My portfolio
+It's a work in progresso.
 
-Webapge is at this [link](https://maddalenabin.github.io/)
+The webapge is at this [link](https://maddalenabin.github.io/)
