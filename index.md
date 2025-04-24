@@ -10,6 +10,9 @@ Stockholm, Sweden
 
 [GitHub](https://github.com/maddalenabin) | [LinkedIn](https://linkedin.com/in/maddalena-bin) | [Email](mailto:maddalenabin@gmail.com)
 
+
+![Profile photo](/images/profile.jpeg){: style="max-width: 200px; border-radius: 50%;" }
+
 ---
 
 Welcome to my personal webpage!
