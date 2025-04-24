@@ -2,7 +2,9 @@
 layout: default
 title: Maddalena Bin
 ---
-<img src="/images/profile.jpg" alt="Profile photo" style="width:120px; float:right; margin: 10px;" />
+<div style="position: absolute; top: 20px; right: 20px;">
+  <img src="/images/profile.jpeg" alt="Profile photo" style="width: 120px; border-radius: 50%;" />
+</div>
 
 # Maddalena Bin
 
@@ -10,9 +12,7 @@ _PhD in Physics • Data Scientist_
 Stockholm, Sweden
 
 [GitHub](https://github.com/maddalenabin) | [LinkedIn](https://linkedin.com/in/maddalena-bin) | [Email](mailto:maddalenabin@gmail.com)
-
 <!-- This is a comment -->
-<!--![Profile photo](/images/profile.jpeg){: style="max-width: 200px; border-radius: 50%;" }-->
 
 ---
 
