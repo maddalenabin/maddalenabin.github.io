@@ -2,6 +2,7 @@
 layout: default
 title: Maddalena Bin
 ---
+<img src="/images/profile.jpg" alt="Profile photo" style="width:120px; float:right; margin: 10px;" />
 
 # Maddalena Bin
 
@@ -10,8 +11,8 @@ Stockholm, Sweden
 
 [GitHub](https://github.com/maddalenabin) | [LinkedIn](https://linkedin.com/in/maddalena-bin) | [Email](mailto:maddalenabin@gmail.com)
 
-
-![Profile photo](/images/profile.jpeg){: style="max-width: 200px; border-radius: 50%;" }
+<!-- This is a comment -->
+<!--![Profile photo](/images/profile.jpeg){: style="max-width: 200px; border-radius: 50%;" }-->
 
 ---
 
