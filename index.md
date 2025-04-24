@@ -2,11 +2,12 @@
 layout: default
 title: Maddalena Bin
 ---
+
+
+# Maddalena Bin
 <div style="position: absolute; top: 20px; right: 20px;">
   <img src="/images/profile.jpeg" alt="Profile photo" style="width: 120px; border-radius: 50%;" />
 </div>
-
-# Maddalena Bin
 
 _PhD in Physics • Data Scientist_  
 Stockholm, Sweden
