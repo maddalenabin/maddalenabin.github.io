@@ -30,7 +30,7 @@ repository               : "maddalenabin/maddalenabin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "2-portrait.png" #"profile.jpeg"
   name             : "Maddalena Bin"
   pronouns         : "she/her" # example:   
   bio              : #"Short biography for the left-hand sidebar"
