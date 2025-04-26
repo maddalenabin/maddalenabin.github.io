@@ -5,13 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+
+<p>Last Updated: January 2025 2023. <br> An up to date list of all publications can be found on my <a href="https://scholar.google.se/citations?user=TnPudB8AAAAJ&hl=it&inst=4822842529183990406">Google Scholar</a> profile.</p>
+{% if site.category_archive.path %}
+<b>Filter:</b> {% include all-categories.html %}
+{% endif %}
+
+
+
+
+<!-- New style rendering if publication categories are defined 
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -31,6 +36,6 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
+-->
 
 
