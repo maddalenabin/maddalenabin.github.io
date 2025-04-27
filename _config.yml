@@ -84,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   bio              : "PhD in Physics | Data Scientist"
   location         : "Stockholm, Sweden"
   employer         :
