@@ -11,7 +11,7 @@ date: 2021-07-12
 venue: 'ACL 2020'
 preprint: ''
 header: 
-  teaser: 'papers/locattn/convexhull.png'
+  teaser: ''
 paper: 'https://pubs.rsc.org/en/content/articlepdf/2021/cp/d1cp02126e'
 code: '' 
 link: 'https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp02126e'
