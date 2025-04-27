@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Maddalena Bin"
 title_separator          : "-"
 name                     : &name "Maddalena Bin"
-description              : &description "PhD in Machine Learning at Stanford"
+description              : &description "PhD in Physics at Stockgolm University"
 url                      : https://yanndubs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "maddalenabin/maddalenabin.github.io"
@@ -22,9 +22,9 @@ read_more                : "disabled" # if enabled, adds "Read more" links to ex
 talkmap_link             : false #change to true to add link to talkmap on talks page
 search                   : true # #default false
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : #"disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "yanndubs"
+    shortname            : #"yanndubs"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -85,11 +85,11 @@ analytics:
 author:
   name             : *name
   avatar           : "profile.jpg"
-  bio              : "PhD student in Machine Learning"
+  bio              : "PhD in Physics | Data Scientist"
   location         : "Stockholm, Sweden"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=bfM1kzAAAAAJ&hl"
+  googlescholar    : "https://scholar.google.se/citations?user=TnPudB8AAAAJ&hl=it"
   email            : maddalenabin@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -259,7 +259,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 10 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
