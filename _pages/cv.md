@@ -19,13 +19,16 @@ Updated June 2021.
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
+    <!--
     <img src="{{ site.url }}/images/resume/su.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    -->
+    <img src="{{ site.url }}/images/resume/su.png" style="align:left;">
   </div>
 
   <div style="flex:4;">
     <p style="margin:0px">
       <b style="font-size: 130%;">Stockholm University</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2020-2025 -</span>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">2020-2025 </span>
     </p>
     PhD Chemical Physics
     <div style="color:#7a7a7a">
