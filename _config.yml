@@ -7,17 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Maddalena Bin"
+title                    : "Yann Dubois"
 title_separator          : "-"
-name                     : &name "Maddalena Bin"
-description              : &description "PhD in Physics at Stockholm University"
+name                     : &name "Yann Dubois"
+description              : &description "PhD in Machine Learning at Stanford"
 url                      : https://yanndubs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "maddalenabin/maddalenabin.github.io"
-teaser                   : "2-profile.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-og_image                 : /images/2-profile.png  # Add this image to your /images folder
+repository               : "YannDubs/YannDubs.github.io"
+teaser                   : "teaser.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 200 # used to compute the reading time of each article
+words_per_minute         : 160 # used to compute the reading time of each article
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
@@ -25,7 +24,7 @@ search                   : true # #default false
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "maddalenabin"
+    shortname            : "yanndubs"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -59,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : #&twitter "yanndubs"
+  username               : &twitter "yanndubs"
 facebook:
   username               :
   app_id                 :
@@ -71,8 +70,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    #- "https://twitter.com/yanndubs"
-    - "https://www.linkedin.com/in/maddalena-bin/"
+    - "https://twitter.com/yanndubs"
+    - "https://www.linkedin.com/in/duboisyann/"
 
 
 # Analytics
@@ -85,13 +84,13 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "2-profile.png"
-  bio              : "PhD in Physics | Data Scientist"
-  location         : "Stockholm, Sweden"
+  avatar           : "profile.jpg"
+  bio              : "PhD student in Machine Learning"
+  location         : "Stanford, California"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=bfM1kzAAAAAJ&hl"
-  email            : maddalenabin@gmail.com
+  email            : yanndubs@stanford.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -100,17 +99,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "maddalenabin"
+  github           : "yanndubs"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : maddalena-bin
+  linkedin         : duboisyann
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    : 6232494/yann-dubois
   steam            :
   tumblr           :
   twitter          : *twitter
