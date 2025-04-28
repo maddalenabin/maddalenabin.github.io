@@ -11,7 +11,7 @@ date: 2023-05-20
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/xpcs-mio.jpeg'
 paper: '[https://pubs.rsc.org/en/content/articlepdf/2021/cp/d1cp02126e](https://pubs.acs.org/doi/epdf/10.1021/acs.jpcb.3c02492?ref=article_openPDF)'
 code: 'https://github.com/maddalenabin/p10-I-20220280EC-2022' 
 link: '[https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp02126e](https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02492)'
