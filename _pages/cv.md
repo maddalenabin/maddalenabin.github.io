@@ -13,6 +13,7 @@ redirect_from:
 
 🛠️🚧 Work in progress 🛠️🚧
 
+You can download the [pdf file](maddalenabin.github.io/files/cv.pdf).
 
 🎓 Education
 ======
