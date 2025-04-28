@@ -12,23 +12,20 @@
   {% assign title = post.title %}
 {% endif %}
 
-<!-- Make the whole entry clickable -->
-<!--
 <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
-  <div style="display:flex; align-items: center; margin-bottom: 1rem;">
-    <div style="flex:1; padding-right:2%;">
+  <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+    <div style="flex: 0 0 80px; padding-right: 1rem;">
       {% if teaser %}
         <img 
           src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" 
           alt="" 
-          style="max-width: 100%; height: auto; border-radius: 8px;"
+          style="max-width: 100%; height: auto; border-radius: 6px;"
         >
       {% endif %}
     </div>
-    <div style="flex:4;">
-      <b class="archive__item-subtitle" itemprop="headline">{{ title }}</b>
-      <p class="archive__item-publication" itemprop="description">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+    <div style="flex: 1;">
+      <h3 style="margin: 0 0 0.3rem 0;">{{ title }}</h3>
+      <p style="margin: 0; color: #555;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
     </div>
   </div>
 </a>
--->
