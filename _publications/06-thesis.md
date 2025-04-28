@@ -8,7 +8,7 @@ collection: publications
 permalink: /publication/dib
 tldr: ''
 date: 2024-12-18
-venue: 'Stockholm, Sweden'
+venue: 'Ph.D. thesis. Stockholm, Sweden'
 preprint: ''
 header: 
   teaser: ''
