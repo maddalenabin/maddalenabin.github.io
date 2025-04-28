@@ -11,7 +11,8 @@ redirect_from:
 
 <!-- taken from https://emiliendupont.github.io/resume/  -->
 
-Updated June 2021.
+🛠️🚧 Work in progress 🛠️🚧
+
 
 🎓 Education
 ======
