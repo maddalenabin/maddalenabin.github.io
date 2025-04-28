@@ -247,7 +247,7 @@ defaults:
   # _activities
   - scope:
       path: ""
-      type: portfolio
+      type: activities
     values:
       layout: single
       author_profile: true
