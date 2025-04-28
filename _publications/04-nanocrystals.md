@@ -10,7 +10,7 @@ date: 2023-07-13
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/nanocrystal.jpeg'
 paper: ''
 code: '' 
 link: 'https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02413'
