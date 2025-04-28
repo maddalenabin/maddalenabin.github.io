@@ -6,7 +6,7 @@ award: ""
 collection: publications
 permalink: /publication/dib
 tldr: 'This paper uses X-ray Photon Correlation Spectroscopy to study stress–relaxation in hydrated lysozyme proteins at deeply supercooled temperatures, revealing a transition from a jammed to an viscoelastic regime linked to enhanced fluctuations and hydration water dynamics.'
-date: 2023-05-20
+date: 2022-09-21
 venue: ''
 preprint: ''
 header: 
