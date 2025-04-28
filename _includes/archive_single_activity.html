@@ -1,0 +1,34 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<!-- Make the whole entry clickable -->
+<!--
+<a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div style="display:flex; align-items: center; margin-bottom: 1rem;">
+    <div style="flex:1; padding-right:2%;">
+      {% if teaser %}
+        <img 
+          src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" 
+          alt="" 
+          style="max-width: 100%; height: auto; border-radius: 8px;"
+        >
+      {% endif %}
+    </div>
+    <div style="flex:4;">
+      <b class="archive__item-subtitle" itemprop="headline">{{ title }}</b>
+      <p class="archive__item-publication" itemprop="description">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+    </div>
+  </div>
+</a>
+-->
