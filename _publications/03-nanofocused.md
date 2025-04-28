@@ -1,8 +1,7 @@
 ---
 title: "Nanofocused x-ray photon correlation spectroscopy"
-authors_before: "Sharon Berkowicz, Sudipta Das, Mario Reiser, Mariia Filianina, "
-authors_after: ",  Giulio Crevatin, Franz Hennies, Clemens Weninger, Alexander Björling, Paul Bell, Fivos Perakis"
-
+authors_before: "S. Berkowicz, S. Das, M. Reiser, M. Filianina, "
+authors_after: ",  G. Crevatin, F. Hennies, C. Weninger, A. Björling, P. Bell, F. Perakis"
 award: ""
 collection: publications
 permalink: /publication/dib
