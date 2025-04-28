@@ -1,7 +1,7 @@
 ---
 title: "Wide-angle X-ray scattering and molecular dynamics simulations of supercooled protein hydration water"
 authors_before: ""
-authors_after: ", Rafat Yousif, Sharon Berkowicz, Sudipta Das, Daniel Schlesinger, Fivos Perakis"
+authors_after: ", R. Yousif, S. Berkowicz, S. Das, D. Schlesinger, F. Perakis"
 
 award: ""
 collection: publications
