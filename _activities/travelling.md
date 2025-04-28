@@ -2,7 +2,7 @@
 title: "Post Ph.D. trip"
 excerpt: "Trip to South-East Asia: Thailand, Vietnam and Laos"
 header:
-  teaser: "/images/activities/vietnam.jpg"
+  teaser: "/activities/vietnam.jpg"
 collection: activities
 ---
 
