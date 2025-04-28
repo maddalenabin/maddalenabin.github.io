@@ -1,7 +1,7 @@
 ---
 title: "Coherent X-ray Scattering Reveals Nanoscale Fluctuations in Hydrated Proteins"
 authors_before: ""
-authors_after: ", Mario Reiser, Mariia Filianina, Sharon Berkowicz, Sudipta Das, Sonja Timmermann, Wojciech Roseker, Robert Bauer, Jonatan Öström, Aigerim Karina, Katrin Amann-Winkel, Marjorie Ladd-Parada, Fabian Westermeier, Michael Sprung, Johannes Möller, Felix Lehmkühler, Christian Gutt, Fivos Perakis"
+authors_after: ", M. Reiser, M. Filianina, S. Berkowicz, S. Das, S. Timmermann, W. Roseker, R. Bauer, J. Öström, A. Karina, K. Amann-Winkel, M. Ladd-Parada, F. Westermeier, M. Sprung, J. Möller, F. Lehmkühler, C. Gutt, F. Perakis"
 
 award: ""
 collection: publications
