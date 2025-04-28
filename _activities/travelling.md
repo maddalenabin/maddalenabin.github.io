@@ -1,6 +1,6 @@
 ---
 title: "Post Ph.D. trip"
-excerpt: "Trip to South-East Asia: Thailand, Vietnam and Laos<br/><img src='/images/activities/vietnam.jpg' style='width:50px;'>"
+excerpt: "Trip to South-East Asia: Thailand, Vietnam and Laos<br/><img src='/images/activities/vietnam.jpg' width='50'>"
 collection: activities
 ---
 
