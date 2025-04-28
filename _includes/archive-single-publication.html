@@ -29,14 +29,14 @@
       {% if post.venue and post.venue != "" %}<span class="archive__item-publication" itemprop="description" style="color:#175E54">{{ post.venue }}</span>
       {% else %}<span class="archive__item-publication" itemprop="description">{{ post.preprint }}</span>{% endif %}
       {% if post.award and post.award != "" %}<span class="archive__item-publication" itemprop="description" style="color:red">{{ post.award }} 🎉</span>{% endif %}
-      <br> 
+      <!-- <br> 
       <p class="archive__item-publication" itemprop="description">TLDR: {{ post.tldr }}</p>
       {% if post.categories %}
         {% assign current = post %}
         <span class="archive__item-publication">
           {% include category-list-only.html  %}
         </span>
-        <br> 
+        <br> -->
       {% endif %}
       {% if post.paper and post.paper != "" %}<a href="{{ post.paper }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>{% endif %}
       {% if post.code and post.code != "" %}<a href="{{ post.code }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>{% endif %}
