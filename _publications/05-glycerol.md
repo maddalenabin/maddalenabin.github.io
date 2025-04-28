@@ -10,7 +10,7 @@ date: 2024-12-05
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/sharon-glycerol.jpeg'
 paper: ''
 code: '' 
 link: 'https://www.nature.com/articles/s41467-024-54890-y'
