@@ -8,7 +8,7 @@ collection: publications
 permalink: /publication/dib
 tldr: 'This work investigates hydrated proteins using wide-angle X-ray scattering and molecular dynamics simulations.'
 date: 2021-07-12
-venue: 'ACL 2020'
+venue: ''
 preprint: ''
 header: 
   teaser: ''
