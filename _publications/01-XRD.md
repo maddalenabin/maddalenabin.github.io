@@ -11,7 +11,7 @@ date: 2021-07-12
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/paper1.png'
 paper: 'https://pubs.rsc.org/en/content/articlepdf/2021/cp/d1cp02126e'
 code: '' 
 link: 'https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp02126e'
