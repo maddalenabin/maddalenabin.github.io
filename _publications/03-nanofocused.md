@@ -10,7 +10,7 @@ date: 2022-07-25
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/sharon-focus.jpeg'
 paper: ''
 code: '' 
 link: 'https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032012'
