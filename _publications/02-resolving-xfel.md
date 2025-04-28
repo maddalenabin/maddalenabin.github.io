@@ -10,7 +10,7 @@ date: 2022-09-21
 venue: ''
 preprint: ''
 header: 
-  teaser: ''
+  teaser: 'papers/mario.jpeg'
 paper: ''
 code: 'https://github.com/reiserm/midtools' 
 link: 'https://www.nature.com/articles/s41467-022-33154-7'
