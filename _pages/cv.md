@@ -29,10 +29,10 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">Stockholm University</b>
+      <b style="font-size: 110%;">Stockholm University</b>
       <span style="float:right; font-size:80%; color:#7a7a7a;">2020 - 2025 </span>
     </p>
-    PhD Chemical Physics
+    PhD in Chemical Physics
     <div style="color:#7a7a7a">
       Supervised by Fivos Perakis
     </div>
