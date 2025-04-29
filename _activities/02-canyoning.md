@@ -2,7 +2,7 @@
 title: "Canyoning"
 excerpt: "Having fun on the mountain"
 header:
-  teaser: "vietnam.jpg"
+  teaser: "GH012449.JPG"
 collection: activities
 ---
 
