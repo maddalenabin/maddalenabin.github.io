@@ -15,7 +15,7 @@ redirect_from:
 
 You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
-<h2 style="margin-bottom: 1.5rem;">🎓 Education</h2>
+<h2 style="margin-bottom: 2.5rem;">🎓 Education</h2>
 ======
 <!-- PhD -->
 <div style="display:flex;">
