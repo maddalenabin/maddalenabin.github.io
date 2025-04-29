@@ -19,7 +19,7 @@
       {% if teaser %}
       <div style="width: 80px; height: 80px; overflow: hidden; border-radius: 50%;">
         <img 
-          src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" 
+          src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/activities/' | prepend: base_path }}{% endif %}" 
           alt="" 
           style="width: 100%; height: 100%; object-fit: cover;">
       </div>
