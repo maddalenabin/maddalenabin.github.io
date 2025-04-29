@@ -15,7 +15,7 @@
 
 <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
   <div style="display: flex; align-items: center; margin-bottom: 2.5rem;">
-    <div style="flex: 0 0 80px; margin-right: 10rem; overflow: hidden; position: relative;">
+    <div style="flex: 0 0 80px; margin-right: 6rem; overflow: hidden; position: relative;">
       {% if teaser %}
       <div style="width: 80px; height: 80px; overflow: hidden; border-radius: 50%;">
         <img 
@@ -25,7 +25,7 @@
       </div>
       {% else %}
       <!-- Optional: Default image if teaser is missing -->
-      <div style="width: 80px; height: 80px; overflow: hidden; border-radius: 50%; background-color: #ccc;">
+      <div style="width: 80px; height: 80px; overflow: hidden; border-radius: 100%; background-color: #ccc;">
         <img 
           src="/images/2-portrait.png" 
           alt="default image" 
