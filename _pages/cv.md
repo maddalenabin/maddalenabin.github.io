@@ -87,6 +87,35 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
 <h1>  style="margin-bottom: 2.5rem;">💼 Work experience</h1>
 <!-- <h1 style="margin-bottom: 2.5rem;">🎓 Education</h1> -->
+<h2>💼 Work experience</h2>
+<ul style="padding-left: 1.2em; list-style-position: outside;">
+
+  <li>
+    <span style="font-weight: bold; font-size: 110%;">Data Scientist and Researcher</span>,
+    Stockholm University
+    <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span>
+    <ul>
+      <li>Developed code</li>
+      <li>Did something else</li>
+    </ul>
+  </li>
+
+  <li>
+    <span style="font-weight: bold; font-size: 110%;">Municipal council member</span>,
+    Casale di Scodosia, Italy
+    <span style="float:right; font-size:90%; color:#7a7a7a;">2014 - 2020</span>
+  </li>
+
+  <li>
+    <span style="font-weight: bold; font-size: 110%;">Student tutor</span>,
+    University of Padua, Italy
+    <span style="float:right; font-size:90%; color:#7a7a7a;">2016 - 2017</span>
+  </li>
+
+</ul>
+
+
+
 <ul style="list-style-position: inside; padding-left: 1em;">
     <li><div style="display: flex; justify-content: space-between;">
             <strong style="font-size: 110%;">Data Scientist and Researcher</strong>
