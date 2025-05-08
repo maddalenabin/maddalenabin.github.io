@@ -17,4 +17,6 @@ code: 'https://github.com/maddalenabin/p10-I-20220280EC-2022'
 link: 'https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02492'
 video: ''
 categories:
+  - XPCS
+  - hydrated proteins
 ---
