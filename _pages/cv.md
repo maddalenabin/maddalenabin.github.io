@@ -117,7 +117,9 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
 
 
-Awards 🌟
+
+<h1>  style="margin-bottom: 2.5rem;">🌟 Awards </h1>
+
 ======
 <ul>
   <li>
