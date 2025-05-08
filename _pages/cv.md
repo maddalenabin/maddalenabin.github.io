@@ -90,6 +90,12 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 * item
   * item
   * 
+<ul>
+    <b style="font-size: 110%;">Data Scientist and Researcher</b>
+    <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span> <br>
+    Stockholm University
+<ul>  
+
 
 <div style="display:flex;">
 
