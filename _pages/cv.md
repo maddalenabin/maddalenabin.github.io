@@ -87,17 +87,12 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
 💼 Work experience
 ======
-* item
-  * item
-  * 
 <ul>
     <b style="font-size: 110%;">Data Scientist and Researcher</b>
     <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span> <br>
     Stockholm University
-    <li>
-      <b>Developed code </b>
-      <b>Did somenthing else </b>
-    </li>
+    <li> Developed code </li>
+    <li> Did somenthing else </li>
 <ul>  
 
 
