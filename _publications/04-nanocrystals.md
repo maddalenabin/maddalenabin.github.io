@@ -16,4 +16,6 @@ code: ''
 link: 'https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02413'
 video: ''
 categories:
+  - proteins
+  - crystals
 ---
