@@ -85,27 +85,37 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 * M.S. in Physics, University of Padua, 2020
 * B.S. in Ohysics, University of Padua, 2017 --> 
 
-💼 Work experience
-======
-<ul>
-    <b style="font-size: 110%;">Data Scientist and Researcher</b>
-    <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span> <br>
-    Stockholm University
-    <li> Developed code </li>
-    <li> Did somenthing else </li>
-<ul>  
+<h2>💼 Work experience</h2>
+<!-- <h1 style="margin-bottom: 2.5rem;">🎓 Education</h1> -->
+<ul style="list-style-position: inside; padding-left: 1em;">
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <strong style="font-size: 110%;">Data Scientist and Researcher</strong>
+            <span style="font-size:90%; color:#7a7a7a;">2020 - 2025</span>
+        </div>
+        <div>Stockholm University</div>
+        <ul>
+            <li>Developed code</li>
+            <li>Did something else</li>
+        </ul>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <strong style="font-size: 110%;">Municipal council member</strong>
+            <span style="font-size:90%; color:#7a7a7a;">2014 - 2020</span>
+        </div>
+        <div>Casale di Scodosia, Italy</div>
+    </li>
+    <li>
+        <div style="display: flex; justify-content: space-between;">
+            <strong style="font-size: 110%;">Student tutor</strong>
+            <span style="font-size:90%; color:#7a7a7a;">2016 - 2017</span>
+        </div>
+        <div>University of Padua, Italy</div>
+    </li>
+</ul>
 
-<ul>
-    <b style="font-size: 110%;">Municipal council member</b>
-    <span style="float:right; font-size:90%; color:#7a7a7a;">2014 - 2020</span> <br>
-    Casale di Scodosia, Italy
-<ul>  
 
-<ul>
-    <b style="font-size: 110%;">Student tutor</b>
-    <span style="float:right; font-size:90%; color:#7a7a7a;">2016 - 2017</span> <br>
-    University of Padua, Italy
-<ul>  
 
 
 Awards 🌟
