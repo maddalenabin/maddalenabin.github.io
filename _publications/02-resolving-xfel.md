@@ -16,4 +16,6 @@ code: 'https://github.com/reiserm/midtools'
 link: 'https://www.nature.com/articles/s41467-022-33154-7'
 video: ''
 categories:
+  - XPCS
+  - proteins
 ---
