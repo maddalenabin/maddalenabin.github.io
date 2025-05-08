@@ -30,7 +30,7 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
   <div style="flex:4;">
     <p style="margin:0px">
       <b style="font-size: 110%;">Stockholm University</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2020 - 2025 </span>
+      <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025 </span>
     </p>
     PhD in Chemical Physics
     <div style="color:#7a7a7a">
@@ -49,8 +49,8 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">University of Padua</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2017 - 2020</span>
+      <b style="font-size: 110%;">University of Padua</b>
+      <span style="float:right; font-size:90%; color:#7a7a7a;">2017 - 2020</span>
     </p>
     MS in Physics
     <!-- <div style="color:#7a7a7a">
@@ -69,8 +69,8 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">University of Padua</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2014 - 2017</span>
+      <b style="font-size: 110%;">University of Padua</b>
+      <span style="float:right; font-size:90%; color:#7a7a7a;">2014 - 2017</span>
     </p>
     BSc in Physics
     <!-- <div style="color:#7a7a7a">
@@ -89,7 +89,25 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 ======
 * item
   * item
-  
+  * 
+
+<div style="display:flex;">
+
+  <div style="flex:0.5; padding-right:5%">
+  </div>
+
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 110%;">Data Scientist and Researcher</b>
+      <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span>
+    </p>
+    Stockholm University
+    <!-- <div style="color:#7a7a7a">
+      Advised by 
+    </div> -->
+  </div>
+</div>
+
 Awards 🌟
 ======
 <ul>
