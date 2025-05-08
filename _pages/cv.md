@@ -85,11 +85,10 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 * M.S. in Physics, University of Padua, 2020
 * B.S. in Ohysics, University of Padua, 2017 --> 
 
-<h2>💼 Work experience</h2>
+<h1>  style="margin-bottom: 2.5rem;">💼 Work experience</h1>
 <!-- <h1 style="margin-bottom: 2.5rem;">🎓 Education</h1> -->
 <ul style="list-style-position: inside; padding-left: 1em;">
-    <li>
-        <div style="display: flex; justify-content: space-between;">
+    <li><div style="display: flex; justify-content: space-between;">
             <strong style="font-size: 110%;">Data Scientist and Researcher</strong>
             <span style="font-size:90%; color:#7a7a7a;">2020 - 2025</span>
         </div>
