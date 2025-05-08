@@ -16,4 +16,5 @@ code: ''
 link: 'https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032012'
 video: ''
 categories:
+  - XPCS
 ---
