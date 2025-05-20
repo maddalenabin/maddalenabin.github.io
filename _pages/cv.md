@@ -94,12 +94,13 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
     <span style="font-weight: bold; font-size: 110%;">Data Scientist and Researcher</span>,
     Stockholm University
     <span style="float:right; font-size:90%; color:#7a7a7a;">2020 - 2025</span>
+    <!--
     <ul>
       <li>Developed code</li>
       <li>Did something else</li>
     </ul>
   </li>
-
+-->
   <li>
     <span style="font-weight: bold; font-size: 110%;">Municipal council member</span>,
     Casale di Scodosia, Italy
@@ -118,18 +119,16 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
 
 <h1 style="margin-top: 2rem; margin-bottom: 2rem;">🌟 Awards </h1>
-======
 <ul>
   <li>
-    <b>Best poster </b>
+    <b>Best poster, </b> <i>Coherence Conference</i>
     <span style="float:right; font-size:80%; color:#7a7a7a;">2024</span> <br>
-    <i>Coherence Conference</i>
   </li>
 
   <li>
-    <b>Stockholms universitets Donationsstipendium </b>
-    <span style="float:right; font-size:80%; color:#7a7a7a;">2023</span> <br>
-    <i>Stockhlm University</i>
+    <b>Research grants, </b> <i>Stockhlm University/i> 
+    <span style="float:right; font-size:80%; color:#7a7a7a;">2020-2024</span> <br>
+    <i>Total amount of 46k SEK.</i>
   </li>
 <ul>
 <!-- Update --> 
