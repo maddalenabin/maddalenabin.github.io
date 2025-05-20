@@ -13,7 +13,7 @@ redirect_from:
 
 🛠️🚧 Work in progress 🛠️🚧
 
-<h1 style="margin-bottom: 2rem;">🎓 Education</h1>
+<h1 style="margin-bottom: 1rem;">🎓 Education</h1>
 
 <!-- PhD -->
 <div style="display:flex;">
@@ -83,7 +83,7 @@ redirect_from:
 * M.S. in Physics, University of Padua, 2020
 * B.S. in Ohysics, University of Padua, 2017 --> 
 
-<h1 style="margin-top: 2rem; margin-bottom: 2rem;">💼 Work experience</h1>
+<h1 style="margin-top: 2rem; margin-bottom: 1rem;">💼 Work experience</h1>
 <!-- <h1 style="margin-bottom: 2.5rem;">🎓 Education</h1> -->
 <!--<h2>💼 Work experience</h2> -->
 <ul style="padding-left: 1.2em; list-style-position: outside;">
@@ -96,9 +96,9 @@ redirect_from:
     <ul>
       <li>Developed code</li>
       <li>Did something else</li>
-    </ul>
+    </ul> -->
   </li>
--->
+
   <li>
     <span style="font-weight: bold; font-size: 110%;">Municipal council member</span>,
     Casale di Scodosia, Italy
@@ -116,7 +116,7 @@ redirect_from:
 
 
 
-<h1 style="margin-top: 2rem; margin-bottom: 2rem;">🌟 Awards </h1>
+<h1 style="margin-top: 2rem; margin-bottom: 1rem;">🌟 Awards </h1>
 <ul>
   <li>
     <b>Best poster, </b> <i>Coherence Conference</i>
@@ -124,9 +124,9 @@ redirect_from:
   </li>
 
   <li>
-    <b>Research grants, </b> <i>Stockhlm University/i> 
+    <b>Research grants </b> <i>Stockhlm University</i> 
     <span style="float:right; font-size:80%; color:#7a7a7a;">2020-2024</span> <br>
-    <i>Total amount of 46k SEK.</i>
+    Total amount of 46k SEK.
   </li>
 <ul>
 
