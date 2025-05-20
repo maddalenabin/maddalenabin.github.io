@@ -13,8 +13,6 @@ redirect_from:
 
 🛠️🚧 Work in progress 🛠️🚧
 
-You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
-
 <h1 style="margin-bottom: 2rem;">🎓 Education</h1>
 
 <!-- PhD -->
@@ -131,6 +129,9 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
     <i>Total amount of 46k SEK.</i>
   </li>
 <ul>
+
+
+You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 <!-- Update --> 
 
 <!--
