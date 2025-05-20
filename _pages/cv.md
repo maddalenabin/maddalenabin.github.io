@@ -131,6 +131,8 @@ redirect_from:
 <ul>
 
 
+<!-- Update --> 
+
 You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 <!-- Update --> 
 
