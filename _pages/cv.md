@@ -15,7 +15,7 @@ redirect_from:
 
 You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
-<h1 style="margin-bottom: 2.5rem;">🎓 Education</h1>
+<h1 style="margin-bottom: 2rem;">🎓 Education</h1>
 
 <!-- PhD -->
 <div style="display:flex;">
@@ -85,7 +85,7 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 * M.S. in Physics, University of Padua, 2020
 * B.S. in Ohysics, University of Padua, 2017 --> 
 
-<h1 style="margin-bottom: 2.5rem;">💼 Work experience</h1>
+<h1 style="margin-top: 2rem; margin-bottom: 2rem;">💼 Work experience</h1>
 <!-- <h1 style="margin-bottom: 2.5rem;">🎓 Education</h1> -->
 <!--<h2>💼 Work experience</h2> -->
 <ul style="padding-left: 1.2em; list-style-position: outside;">
@@ -117,7 +117,7 @@ You can download the [pdf file](https://maddalenabin.github.io/files/cv.pdf).
 
 
 
-<h1 style="margin-bottom: 2.5rem;">🌟 Awards </h1>
+<h1 style="margin-top: 2rem; margin-bottom: 2rem;">🌟 Awards </h1>
 ======
 <ul>
   <li>
