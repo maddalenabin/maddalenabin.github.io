@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="page-section">
+    <div class="container">
+        <p class="section-label">Writing</p>
+        <h1 class="section-title">Blog</h1>
+        <p style="color:var(--text-secondary);margin-bottom:2.5rem;font-size:0.95rem;">
+            Notes on data science, physics, tools I use, and things I'm learning.
+        </p>
+
+        {% if site.posts.size > 0 %}
+        <div class="post-list">
+            {% for post in site.posts %}
+            <a href="{{ post.url | relative_url }}" class="post-item">
+                <span class="post-item-title">{{ post.title }}</span>
+                <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+            </a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p style="color:var(--text-muted);font-size:0.9rem;font-style:italic">Posts coming soon.</p>
+        {% endif %}
+    </div>
+</div>

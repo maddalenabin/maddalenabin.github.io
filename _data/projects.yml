@@ -1,0 +1,15 @@
+- title: "XPCS data analysis pipeline"
+  description: "Analysis pipeline for X-ray Photon Correlation Spectroscopy data collected at synchrotron facilities (ESRF, PETRA III). Extracts dynamics of protein solutions from coherent scattering."
+  tags: [Python, NumPy, HDF5, Jupyter]
+  github: https://github.com/maddalenabin/p10-I-20220280EC-2022
+  paper: https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02492
+
+- title: "Protein hydration water simulations"
+  description: "Molecular dynamics simulations and wide-angle X-ray scattering analysis of supercooled protein hydration water."
+  tags: [Python, GROMACS, MDAnalysis, matplotlib]
+  paper: https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp02126e
+
+- title: "Personal website"
+  description: "This site — built with Jekyll, custom CSS, zero JS frameworks. Designed for speed and simplicity."
+  tags: [Jekyll, HTML, CSS, GitHub Pages]
+  github: https://github.com/maddalenabin/maddalenabin.github.io

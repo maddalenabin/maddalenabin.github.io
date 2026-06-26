@@ -1,0 +1,37 @@
+---
+layout: default
+title: Publications
+---
+
+<div class="page-section">
+    <div class="container">
+        <p class="section-label">Research output</p>
+        <h1 class="section-title">Publications</h1>
+        <p style="color:var(--text-secondary);margin-bottom:2.5rem;font-size:0.875rem;">
+            Full list on <a href="{{ site.author.scholar }}" style="color:var(--accent)">Google Scholar</a>.
+        </p>
+
+        {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+        {% for year_group in pubs_by_year %}
+        <div class="pub-year-group">
+            <div class="pub-year">{{ year_group.name }}</div>
+            <div class="pub-list">
+                {% for pub in year_group.items %}
+                <div class="pub-item">
+                    {% if pub.image %}
+                    <img class="pub-img" src="{{ pub.image }}" alt="" />
+                    {% endif %}
+                    <div>
+                        <div class="pub-title">{{ pub.title }}</div>
+                        <div class="pub-authors">{{ pub.authors }}</div>
+                        {% if pub.url %}
+                        <a class="pub-link" href="{{ pub.url }}" target="_blank" rel="noopener">Read →</a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

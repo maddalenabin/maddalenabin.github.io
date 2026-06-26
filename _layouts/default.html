@@ -1,31 +1,57 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% include base_path %}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:ital@0;1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    {% seo %}
+</head>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<body>
 
-  <body>
+    <header class="site-header">
+        <div class="container">
+            <a class="site-name" href="{{ '/' | relative_url }}">Maddalena Bin</a>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}" {% if page.url=='/' %}class="active" {% endif %}>Home</a>
+                <a href="{{ '/portfolio' | relative_url }}" {% if page.url contains 'portfolio' %}class="active" {%
+                    endif %}>Portfolio</a>
+                <a href="{{ '/cv' | relative_url }}" {% if page.url contains '/cv' %}class="active" {% endif %}>CV</a>
+                <a href="{{ '/publications' | relative_url }}" {% if page.url contains 'publications' %}class="active"
+                    {% endif %}>Publications</a>
+                <a href="{{ '/blog' | relative_url }}" {% if page.url contains 'blog' %}class="active" {% endif
+                    %}>Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu"
+                onclick="this.closest('.site-header').querySelector('.site-nav').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <main>
+        {{ content }}
+    </main>
 
-    {{ content }}
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-links">
+                <a href="mailto:{{ site.author.email }}">Email</a>
+                <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="{{ site.author.scholar }}" target="_blank" rel="noopener">Scholar</a>
+            </p>
+            <p class="footer-copy">© {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+        </div>
+    </footer>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+</body>
 
-    {% include scripts.html %}
-
-  </body>
 </html>

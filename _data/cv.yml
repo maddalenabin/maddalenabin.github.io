@@ -1,0 +1,53 @@
+experience:
+  - title: Senior Data Scientist
+    org: Helicon Technologies
+    location: Stockholm
+    dates: "2025 – present"
+  - title: Data Scientist Consultant
+    org: Freelance
+    dates: "2025"
+  - title: Data Scientist and Researcher
+    org: Stockholm University
+    location: Stockholm
+    dates: "2020 – 2025"
+  - title: Municipal council member
+    org: Casale di Scodosia
+    location: Italy
+    dates: "2014 – 2020"
+  - title: Student tutor
+    org: University of Padua
+    location: Italy
+    dates: "2016 – 2017"
+
+education:
+  - degree: PhD in Chemical Physics
+    school: Stockholm University
+    dates: "2020 – 2025"
+    note: Supervised by Fivos Perakis
+  - degree: MS in Physics
+    school: University of Padua
+    location: Italy
+    dates: "2017 – 2020"
+  - degree: BSc in Physics
+    school: University of Padua
+    location: Italy
+    dates: "2014 – 2017"
+
+skills:
+  - category: Languages
+    items: [Python, R, MATLAB, SQL, Bash]
+  - category: ML / Data
+    items: [scikit-learn, PyTorch, pandas, NumPy, Jupyter]
+  - category: Scientific
+    items: [GROMACS, MDAnalysis, HDF5, synchrotron data]
+  - category: Tools
+    items: [Git, GitHub Actions, Docker, Notion]
+
+awards:
+  - title: Best poster
+    org: Coherence Conference
+    year: "2024"
+  - title: Research grants
+    org: Stockholm University
+    year: "2020 – 2024"
+    note: Total 46,000 SEK

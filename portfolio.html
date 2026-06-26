@@ -1,0 +1,39 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class="page-section">
+    <div class="container--wide">
+        <p class="section-label">Work</p>
+        <h1 class="section-title">Portfolio</h1>
+        <p style="color:var(--text-secondary);margin-bottom:2.5rem;font-size:0.95rem;">
+            A selection of projects spanning data science, scientific computing, and research tooling.
+        </p>
+
+        <div class="projects-grid">
+            {% for project in site.data.projects %}
+            <div class="project-card">
+                <div class="project-title">{{ project.title }}</div>
+                <div class="project-desc">{{ project.description }}</div>
+                <div class="tag-list">
+                    {% for tag in project.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <div class="project-links">
+                    {% if project.github %}
+                    <a href="{{ project.github }}" target="_blank" rel="noopener">GitHub →</a>
+                    {% endif %}
+                    {% if project.demo %}
+                    <a href="{{ project.demo }}" target="_blank" rel="noopener">Live demo →</a>
+                    {% endif %}
+                    {% if project.paper %}
+                    <a href="{{ project.paper }}" target="_blank" rel="noopener">Paper →</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

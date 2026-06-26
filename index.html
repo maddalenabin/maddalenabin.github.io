@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-inner">
+            <div>
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Maddalena Bin</h1>
+                <p class="hero-tagline">Senior Data Scientist · PhD in Physics</p>
+                <div class="hero-bio">
+                    <p>I work at <a href="https://www.helicon.ai/" style="color:var(--accent)">Helicon Technologies</a>
+                        in Stockholm, where I apply ML and AI to scientific problems. I recently finished my PhD in
+                        Chemical Physics at Stockholm University, where I studied proteins and water using X-ray
+                        scattering.</p>
+                    <p>Outside of work I play field hockey, travel, and think about maps and data.</p>
+                </div>
+                <div class="hero-links">
+                    <a class="btn btn--accent" href="mailto:{{ site.author.email }}">Email me</a>
+                    <a class="btn" href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"
+                        rel="noopener">LinkedIn</a>
+                    <a class="btn" href="https://github.com/{{ site.author.github }}" target="_blank"
+                        rel="noopener">GitHub</a>
+                    <a class="btn" href="{{ site.author.scholar }}" target="_blank" rel="noopener">Scholar</a>
+                </div>
+            </div>
+            <img class="avatar" src="/images/profile.jpeg" alt="Maddalena Bin" />
+        </div>
+    </div>
+</section>
