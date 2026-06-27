@@ -12,8 +12,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     {% seo %}
-    <link rel="icon" type="image/png" href="/2-portrait-180x180.png" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/images/2-portrait-180x180.png" />
 </head>
 
 <body>
@@ -23,8 +22,8 @@
             <a class="site-name" href="{{ '/' | relative_url }}">Maddalena Bin</a>
             <nav class="site-nav">
                 <a href="{{ '/' | relative_url }}" {% if page.url=='/' %}class="active" {% endif %}>Home</a>
-                <a href="{{ '/portfolio' | relative_url }}" {% if page.url contains 'portfolio' %}class="active" {%
-                    endif %}>Portfolio</a>
+                <a href="{{ '/travels' | relative_url }}" {% if page.url contains 'travels' %}class="active" {% endif
+                    %}>Travels</a>
                 <a href="{{ '/cv' | relative_url }}" {% if page.url contains '/cv' %}class="active" {% endif %}>CV</a>
                 <a href="{{ '/publications' | relative_url }}" {% if page.url contains 'publications' %}class="active"
                     {% endif %}>Publications</a>

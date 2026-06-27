@@ -682,3 +682,28 @@ main {
 .mt-2 {
     margin-top: 1rem;
 }
+
+/* ── Trips ── */
+.trips-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.trip-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: border-color 0.15s;
+}
+.trip-card:hover { border-color: var(--text-muted); }
+.trip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.trip-title { font-size: 0.95rem; font-weight: 500; margin-bottom: 0.2rem; }
+.trip-subtitle { font-size: 0.8rem; color: var(--text-muted); }
+.trip-desc { font-size: 0.875rem; color: var(--text-secondary); line-height: 1.6; }
+
+@media (max-width: 520px) {
+  .trip-header { flex-direction: column; }
+}
