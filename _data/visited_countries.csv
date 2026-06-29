@@ -1,10 +1,10 @@
 iso,country,visited
-...
+AT,Austria, 2
+BE,Belgium, 2
 TH,Thailand,2
 VN,Vietnam,2
 LA,Laos,2
 JP,Japan,2
-SG,Singapore,2
 ID,Indonesia,2
 US,United States,2
 AL,Albania,2
@@ -33,3 +33,4 @@ VA,Vatican City,2
 IS,Iceland,1
 KG,Kyrgyzstan,1
 UZ,Uzbekistan,1
+
