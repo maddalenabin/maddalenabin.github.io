@@ -1,11 +1,74 @@
+- year: "2026"
+  title: "X-ray photon correlation spectroscopy of hydrated lysozyme at elevated pressures"
+  authors: "M. Öhlfeldt, M. Bin, A. Girelli, I. Andronis, A. Karina, N. D. Anthuparambil et al."
+  image: /images/papers/pccp_2026.gif
+  url: https://pubs.rsc.org/en/content/articlehtml/2026/cp/d5cp04829j
+
+- year: "2026"
+  title: "Observation of a dynamic transition in bulk supercooled water"
+  authors: "R. Tyburski, M. Shin, S. You, K. Nam, M. Soldemo, A. Girelli, M. Bin et al."
+  image: /images/papers/nat_phys_2026.png
+  url: https://www.nature.com/articles/s41567-025-03112-3
+
+- year: "2026"
+  title: "Lipoprotein diffusion in dense yolk plasma is governed by softness, hydrodynamics, and caging: Insights from MHz-XPCS"
+  authors: "N. D. Anthuparambil, M. Dargasz, S. Timmermann, A. Girelli, S. Retzbach et al."
+  url: https://www.pnas.org/doi/full/10.1073/pnas.2519681123
+
+- year: "2025"
+  title: "Coherent X-rays reveal anomalous molecular diffusion and cage effects in crowded protein solutions"
+  authors: "A. Girelli, M. Bin, M. Filianina, M. Dargasz, N. D. Anthuparambil, J. Müller et al."
+  image: /images/papers/nat_comm_2025.png
+  url: https://www.nature.com/articles/s41467-025-66972-6
+
+- year: "2025"
+  title: "Unveiling the Elusive Low-Energy Vibrational Modes of Ice I Using Resonant Inelastic X-ray Spectroscopy"
+  authors: "Y. Han, R. Tyburski, S. Jeong, M. Filianina, M. Shin, A. Karina, T. Eklund et al."
+  url: https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.5c05638
+
+- year: "2024"
+  title: "Supercritical density fluctuations and structural heterogeneity in supercooled water-glycerol microdroplets"
+  authors: "S. Berkowicz, I. Andronis, A. Girelli, M. Filianina, M. Bin, K. Nam, M. Shin et al."
+  image: /images/papers/sharon_glycerol.jpeg
+  url: https://www.nature.com/articles/s41467-024-54985-0
+
+- year: "2024"
+  title: "Exploring Proteins at Cryogenic Temperatures Using X-ray Scattering"
+  authors: "M. Bin"
+  image: /images/papers/thesis.png
+  url: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1915803
+
 - year: "2023"
   title: "Coherent X-ray Scattering Reveals Nanoscale Fluctuations in Hydrated Proteins"
   authors: "M. Bin, M. Reiser, M. Filianina et al."
   image: /images/papers/xpcs-mio.jpeg
   url: https://pubs.acs.org/doi/10.1021/acs.jpcb.3c02492
 
+- year: "2023"
+  title: "Nanocrystallites Modulate Intermolecular Interactions in Cryoprotected Protein Solutions"
+  authors: "M. Filianina, M. Bin, S. Berkowicz, M. Reiser et al."
+  image: /images/papers/nanocrystal.jpeg
+  url: https://pubs.acs.org/doi/10.1021/acs.jpcb.3c01050
+
+- year: "2022"
+  title: "Resolving molecular diffusion and aggregation of antibody proteins with megahertz X-ray free-electron laser pulses"
+  authors: "M. Reiser, A. Girelli, A. Ragulskaya, S. Das, S. Berkowicz, M. Bin et al."
+  image: /images/papers/mario.jpeg
+  url: https://www.nature.com/articles/s41467-022-33154-7
+
+- year: "2022"
+  title: "Nanofocused x-ray photon correlation spectroscopy"
+  authors: "S. Berkowicz, S. Das, M. Reiser, M. Filianina, M. Bin et al."
+  image: /images/papers/sharon-focus.jpeg
+  url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032012
+
 - year: "2021"
   title: "Wide-angle X-ray scattering and molecular dynamics simulations of supercooled protein hydration water"
   authors: "M. Bin, R. Yousif, S. Berkowicz et al."
   image: /images/papers/paper1.png
   url: https://pubs.rsc.org/en/content/articlehtml/2021/cp/d1cp02126e
+
+- year: "2020"
+  title: "Investigating the role of water in the protein dynamic transition"
+  authors: "M. Bin"
+  url: https://www.diva-portal.org/smash/record.jsf?pid=diva2:1413019
