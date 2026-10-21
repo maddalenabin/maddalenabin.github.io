@@ -1,0 +1,107 @@
+/* World map styles. Set these variables from your site's palette
+   (e.g. --map-visited: var(--crimson)); the values below are fallbacks. */
+
+.world-map,
+.map-legend {
+    --map-sphere: transparent;
+    --map-land: var(--border);
+    --map-border: var(--bg);
+    --map-graticule: var(--border);
+    --map-visited: var(--accent);
+    --map-planned: color-mix(in srgb, var(--accent) 40%, #000);
+}
+
+.world-map {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Colours follow the site's variables, which already switch in dark mode. */
+
+.world-map .map-sphere {
+    fill: var(--map-sphere);
+}
+
+.world-map .map-graticule {
+    stroke: var(--map-graticule);
+    stroke-width: 0.5;
+}
+
+.world-map .country {
+    fill: var(--map-land);
+    stroke: var(--map-border);
+    stroke-width: 0.5;
+    stroke-linejoin: round;
+}
+
+.world-map .country.planned {
+    fill: var(--map-planned);
+}
+
+.world-map .country.visited {
+    fill: var(--map-visited);
+}
+
+.world-map .country:hover {
+    stroke: var(--map-visited);
+    stroke-width: 1;
+}
+
+.world-map .marker {
+    stroke: var(--map-border);
+    stroke-width: 0.75;
+}
+
+.world-map .marker.planned {
+    fill: var(--map-planned);
+}
+
+.world-map .marker.visited {
+    fill: var(--map-visited);
+}
+
+/* Legend, used under the map: swatches share the map's colours. */
+.map-legend {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.map-legend .swatch {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.35em;
+    border-radius: 2px;
+    vertical-align: -0.1em;
+}
+
+.map-legend .swatch.visited {
+    background: var(--map-visited);
+}
+
+.map-legend .swatch.planned {
+    background: var(--map-planned);
+}
+
+/* Hover tooltip (positioned by the script in travels.html). */
+.map-tooltip {
+    position: fixed;
+    z-index: 10;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    background: var(--text-primary);
+    color: var(--bg);
+    font-size: 0.85rem;
+    pointer-events: none;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.map-tooltip.show {
+    opacity: 1;
+}

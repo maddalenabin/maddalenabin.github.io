@@ -1,0 +1,45 @@
+# Countries for the world map (synced from visited_countries.csv).
+# Use 3-letter ISO codes; a country in both lists counts as visited.
+
+visited:
+  - AUT  # Austria
+  - BEL  # Belgium
+  - THA  # Thailand
+  - VNM  # Vietnam
+  - LAO  # Laos
+  - JPN  # Japan
+  - IDN  # Indonesia
+  - USA  # United States
+  - ALB  # Albania
+  - BIH  # Bosnia and Herzegovina
+  - HRV  # Croatia
+  - CZE  # Czech Republic
+  - DNK  # Denmark
+  - FRA  # France
+  - DEU  # Germany
+  - HUN  # Hungary
+  - IRL  # Ireland
+  - ITA  # Italy
+  - LVA  # Latvia
+  - LTU  # Lithuania
+  - MKD  # North Macedonia
+  - NLD  # Netherlands
+  - NOR  # Norway
+  - POL  # Poland
+  - PRT  # Portugal
+  - ESP  # Spain
+  - SWE  # Sweden
+  - CHE  # Switzerland
+  - GBR  # United Kingdom
+  - KGZ  # Kyrgyzstan
+  - UZB  # Uzbekistan
+  - MAR  # Morocco
+
+planned:
+  - ISL  # Iceland
+
+# Dots for places too small for the 110m data.
+markers:
+  - { name: Singapore, lon: 103.8, lat: 1.35, status: visited }
+  - { name: San Marino, lon: 12.46, lat: 43.94, status: visited }
+  - { name: Vatican City, lon: 12.45, lat: 41.90, status: visited }

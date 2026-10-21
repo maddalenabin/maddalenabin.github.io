@@ -15,10 +15,33 @@ permalink: /travels/
 
         <!-- Visited countries map -->
         <div style="margin-bottom:3rem;">
-            <iframe title="Visited Countries" aria-label="Choropleth map" id="datawrapper-chart-6QdgK"
-                src="https://datawrapper.dwcdn.net/6QdgK/5/" scrolling="no" frameborder="0" style="border: none;"
-                width="100%" height="420" data-external="1"></iframe>
+            {% include maps/world.svg %}
+            <p class="map-legend">
+                <span><span class="swatch visited"></span>Visited</span>
+                <span><span class="swatch planned"></span>Planned</span>
+            </p>
         </div>
+
+        <div class="map-tooltip" id="map-tooltip" role="tooltip"></div>
+        <script>
+            (function () {
+                var tip = document.getElementById('map-tooltip');
+                var map = document.querySelector('.world-map');
+                if (!map) return;
+                function place(e) {
+                    tip.style.left = (e.clientX + 12) + 'px';
+                    tip.style.top = (e.clientY + 14) + 'px';
+                }
+                map.addEventListener('mousemove', function (e) {
+                    var el = e.target.closest('[data-name]');
+                    if (!el) { tip.classList.remove('show'); return; }
+                    tip.textContent = el.getAttribute('data-name');
+                    place(e);
+                    tip.classList.add('show');
+                });
+                map.addEventListener('mouseleave', function () { tip.classList.remove('show'); });
+            })();
+        </script>
 
         <!-- Trips -->
         <div class="cv-section-title">Trips</div>
@@ -47,8 +70,7 @@ permalink: /travels/
                     <div>
                         <div class="trip-title">Singapore · Indonesia · Japan</div>
                     </div>
-                    <a class="btn" href="https://www.polarsteps.com/MaddalenaBin/8120554-asia-2023?s=0ea4d242-229c-4067-8b9e-dc9262d58c81
-Follow my trip 'Asia 2023'" target="_blank" rel="noopener">
+                    <a class="btn" href="https://www.polarsteps.com/MaddalenaBin/8120554-asia-2023?s=0ea4d242-229c-4067-8b9e-dc9262d58c81" target="_blank" rel="noopener">
                         View on Polarsteps →
                     </a>
                 </div>
